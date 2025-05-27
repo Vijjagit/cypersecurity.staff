@@ -1,1 +1,16 @@
+ # Configuration files with sensitive data
+config/database.php
 
+# Environment files
+.env
+*.env
+
+# IDE & OS specific files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Composer
+/vendor/
+composer.lock
